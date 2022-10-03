@@ -39,9 +39,9 @@ chatLocationData = {
   })();
   function onYouTubeIframeAPIReady() {
       player = new YT.Player('videoContainer', {
-          height: '300',
-          width: '500',
-          videoId: 'OP2vT9cwaVU',
+          height: '400',
+          width: '600',
+          videoId: 'dRaLwY6Gn2U',
           events: {
               'onStateChange': changeScript
           }
