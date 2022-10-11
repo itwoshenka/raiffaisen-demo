@@ -7,6 +7,8 @@
     background-position: center;
     background-size: contain;
     background-repeat:no-repeat;
+    top: 0px;
+    left: 0px;
 }
 .button{
     display: flex;
@@ -48,6 +50,8 @@
     background-position: center;
     background-size: contain;
     background-repeat:no-repeat;
+    top: 0px;
+    left: 0px;
 }
 .video{
     position: absolute;
@@ -66,14 +70,14 @@
     position: absolute;
     margin-left: auto;
     margin-top: auto;
-    left: 0px;
-    top: 0px;
+    left: 70px;
+    top: 140px;
     right: 0px;
     bottom: 0px;
     margin-right: auto;
     margin-bottom: auto;
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
 }
 #button_before{
     position: absolute;
@@ -100,4 +104,15 @@
     top: 90%;
     width: 50px;
     height: 50px;
+}
+.videoBg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.ibb.co/K5SmQ1p/Screen-Shot-2022-10-03-at-22-59-48.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat:no-repeat;
+    top: 0px;
+    left: 0px;
 }
